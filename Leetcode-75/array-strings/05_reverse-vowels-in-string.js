@@ -88,3 +88,218 @@ for (let char of s) {
   -- If not a vowel, append the original character to the result.
 - Return the rebuilt string with vowels reversed and other characters unchanged.
 */
+
+var reverseVowels = function(s) {
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+    let vowelChars = [];
+    // collect vowels 
+    for(let char of s ) {
+        if(vowels.has(char)) {
+            vowelChars.push(char)
+        }
+    }
+
+    // reverse vowels collected 
+    vowelChars.reverse()
+
+    let result = '';
+    let vowelIndex = 0;
+
+    // Rebuild string with reversed vowels 
+    for (let char of s) {
+        if(vowels.has(char)) {
+            result += vowelChar[vowelIndex++];
+        }
+        else {
+            result += char;
+        }
+    }
+    return result;
+};
+
+
+var reverseVowels = function(s) {
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u','A','E', 'I', 'O', 'U']);
+    let vowelChar = [];
+
+    for(let char of s ) {
+        if (vowels.has(char)) {
+            vowelChars.push(char);
+        }
+    }
+
+    vowelChar.reverse();
+    let result = '';
+    let vowelIndex = 0;
+
+    for (let char of s) {
+        if(vowels.has(char)) {
+            result += vowelChars[vowelIndex++]
+        }
+        else {
+            result += char;
+        }
+    }
+    return result;
+}
+
+var reverseVowels = function(s) {
+    const vowels = new Set(['a','e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+    let vowelChars = [];
+
+    for( let char of s ) {
+        if(vowels.has(char)) {
+            vowelChars.push(char);
+        }
+    }
+
+    vowelChars.reverse();
+
+    let result = '';
+    let vowelIndex = 0;
+
+    for(let char of s){
+        if(vowelshas(char)) {
+            result += vowelChars[vowelIndex++];
+        }
+        else {
+            result += char;
+        }
+    }
+    return result;
+};
+
+
+var reverseVowels = function(s) {
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+    let vowelChars = [];
+
+    for(let char of s) {
+        if(vowels.has(char)) {
+            vowelChars.push(char);
+        }
+    }
+
+    vowelChars.reverse();
+
+    let result = '';
+    let vowelIndex = 0;
+
+    for(let char of s) {
+        if(vowels.has(char)) {
+            result += vowelChars[vowelIndex++];
+        }
+        else {
+            result += char;
+        }
+    }
+    return result;
+};
+
+
+
+var reverseVowels = function(s) {
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+    let vowelChars = [];
+
+    for(let char of s){
+        if(vowels.has(char)) {
+            vowelChars.push(char);
+        }
+    }
+
+    vowelChars.reverse();
+
+    let result = '';
+    let vowelIndex = 0;
+
+    for(let char of s) {
+        if(vowels.has(char)) {
+            result += vowelChars[vowelIndex++];
+        }
+        else{
+            result += char;
+        }
+    }
+    return result;
+};
+
+
+var reverseVowels = function(s) {
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+    let vowelChars = [];
+
+    for(let char of s) {
+        if(vowels.has(char)) {
+            vowelChars.push(char);
+        }
+    }
+
+    vowelChars.reverse();
+
+    let result = '';
+    let vowelIndex = 0;
+
+    for(let char of s) {
+        if(vowels.has(char)) {
+            result += vowelChars[vowelIndex++];
+        }
+        else {
+            result += char;
+        }
+    }
+    return result;
+};
+
+
+var reverseVowels = function(s) {
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+    let vowelChars = [];
+    
+    for(let char of s){
+        if(vowels.has(char)) {
+            vowelChars.push(char);
+        }
+    }
+
+    vowelChars.reverse();
+
+    let result = '';
+    let vowelIndex = 0;
+
+    for(let char of s) {
+        if(vowels.has(char)) {
+            result += vowelChars[vowelIndex++];
+        }
+        else {
+            result += char
+        }
+    }
+    return result;
+}
+
+var reverseVowels = function(s){
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+    let vowelChars = [];
+
+    for( let char of s) {
+        if(vowels.has(char)) {
+            vowelChars.push(char);
+        }
+    }
+
+    vowelChars.reverse();
+
+    let result = '';
+    let vowelIndex = 0;
+    
+    for(let char of s) {
+        if(vowels.has(char)) {
+            result += voweChars[vowelIndex++];
+        }
+        else {
+            result += char;
+        }
+    }
+    return result;
+}
