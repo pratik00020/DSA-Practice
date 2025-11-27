@@ -34,3 +34,15 @@ var increasingTriplet = function(nums) {
 
   return false; // no triplet found
 };
+
+
+/* 
+- Approach:
+- to find the increasing tritplet subswequence in the given array.
+- define two variables first and second to infinity which will hold the smallest and second smallest number.
+- start a for loop from 0th index to n(length of array).
+- check if the current number is less than or equal to first, if yes update fisrt to current number.
+- else if check if the current number is less than or equal to second, if yes update second to current number.
+- if both the condition fail it means we found a number greater than second and first, hence return true.
+- if the loop ends and no such triplet found return false.
+*/
